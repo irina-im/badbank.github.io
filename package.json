@@ -1,0 +1,30 @@
+{
+  "name": "littledb",
+  "version": "1.0.0",
+  "description": "lowdb sample for 1.125",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "lowdb": "^1.0.0",
+    "mongodb": "^3.7.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  },
+  "keywords": []
+}
